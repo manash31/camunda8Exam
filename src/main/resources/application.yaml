@@ -2,8 +2,8 @@ camunda:
   client:
     mode: saas
     auth:
-      client-id: xxx
-      client-secret: xxx
+      client-id: HiLAtMKykrhSPFJfpkMKH6~FGRV1Tw-P
+      client-secret: 2G_eHyjNhwnW.TXIJBoNjj0sLySMCUwQBY~kZ.XJnfjLjU8~RmCo.JMHv9soYIy5
     cloud:
-      cluster-id: xxx
-      region: xxx
+      cluster-id: c275ccfd-990f-41e3-b70d-8f8809a2f639
+      region: bru-2

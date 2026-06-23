@@ -42,16 +42,18 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Source: https://mvnrepository.com/artifact/io.camunda/camunda-spring-boot-4-starter -->
         <dependency>
             <groupId>io.camunda</groupId>
-            <artifactId>camunda-spring-boot-starter</artifactId>
-            <version>8.9.0</version>
+            <artifactId>camunda-spring-boot-4-starter</artifactId>
+            <version>8.8.26</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>io.camunda</groupId>
             <artifactId>camunda-process-test-spring</artifactId>
-            <version>8.9.0</version>
+            <version>8.8.0</version>
             <scope>test</scope>
         </dependency>
 

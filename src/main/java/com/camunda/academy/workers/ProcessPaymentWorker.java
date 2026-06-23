@@ -24,7 +24,7 @@ public class ProcessPaymentWorker {
         this.trackingOrderService = trackingOrderService;
     }
 
-    @JobWorker(type = "processPayment")
+    //@JobWorker(type = "processPayment")
     public void processPaymentHandler(final JobClient client, final ActivatedJob job) throws Exception {    
         logger.info("Handling job: {} Processing payment", job.getKey());
         trackingOrderService.processPayment(job);

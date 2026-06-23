@@ -24,7 +24,7 @@ public class OrderWorker {
         this.trackingOrderService = trackingOrderService;
     }
 
-    @JobWorker(type = "trackOrderStatus")
+    @JobWorker(type = "Track_Status", tenantIds = {"<default>"})
     public void handleOrderStatusJob(final JobClient client, final ActivatedJob job) throws InterruptedException {
         logger.info("Handling job: {} Tracking status", job.getKey());
         trackingOrderService.trackOrderStatus(job);

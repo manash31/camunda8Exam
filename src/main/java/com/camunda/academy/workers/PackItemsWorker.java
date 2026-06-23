@@ -24,7 +24,7 @@ public class PackItemsWorker {
         this.trackingOrderService = trackingOrderService;
     }
 
-    @JobWorker(type = "packItems")
+    //@JobWorker(type = "packItems")
     public void packItemsHandler(final JobClient client, final ActivatedJob job) throws Exception {
         logger.info("Handling job: {} Packing items", job.getKey());
         trackingOrderService.packItems(job);
