@@ -18,7 +18,7 @@ public class OrderApplication implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(OrderApplication.class);
 
     // Process instance creation
-    private static final String PROCESS_ID = "Order_MMM1";
+    private static final String PROCESS_ID = "Order_MMM";
     private static final int NUM_INSTANCES = 1; // Set the total number of new process instances
 
     @Autowired
